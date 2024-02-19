@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
 const Footer = () => {
   const classes = useStyles();
 
-  const productItems = ["Model 000", "Model 001", "Laces", "Masks", "No-show Socks", "Crew Socks", "Gift Cards"];
+  const productItems = ["Model ", "M001", "Laces", "Masks", "No-show Socks", "Crew Socks", "Gift Cards"];
   const supportItems = ["Help Center", "FAQs", "Order", "Order Status", "Returns & Exchanges", "Contact Us"];
   const everythingElseItems = ["Community", "Why Sopa", "About", "Discount Program", "Sopa Blog", "Sopa Ambassadors"];
 

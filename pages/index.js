@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
-// import { Landing } from '../src/components/landing'
+
 import Layout from '../src/components/layout'
+import { Landing } from '../src/components/landing'
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
 
       <main>
         <Layout>
-          {/* <Landing /> */}
+          <Landing />
         </Layout>
       </main>
     </div>

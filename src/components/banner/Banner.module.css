@@ -1,0 +1,64 @@
+/* Banner.module.css */
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F2F2F2;
+    padding: 2em;
+    border-radius: 0.5em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    max-width: 700px; /* Maximum width */
+    width: 90%; /* Responsive width */
+  }
+  
+  .quote {
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 1.25em; /* Responsive font size */
+  }
+  
+  .logos {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 1em; /* Responsive font size */
+  }
+  
+  .vogue,
+  .esquire,
+  .hony {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Esquire logo specific style */
+  .esquire {
+    font-style: italic;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 600px) {
+    .banner {
+      padding: 1em;
+      border-radius: 0.5em;
+    }
+  
+    .quote {
+      font-size: 1em; /* Smaller font size on small screens */
+    }
+  
+    .logos {
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5em; /* Space between logos when stacked */
+    }
+  
+    .vogue,
+    .esquire,
+    .hony {
+      font-size: 0.85em; /* Smaller font size for logos on small screens */
+    }
+  }
+  
